@@ -1,0 +1,10 @@
+<div class="parent">
+    <div id="menu"><a id="m1" routerLink="/event">back</a></div>
+    <div class="child">
+        <h1 class="h1">Remaining Settlements</h1>
+        <h1 *ngIf="this.data.settlements.length==0" id="h1">No settlements remaining for you</h1>
+        <div id="fl" *ngFor="let s of this.data.settlements;let i=index">
+            <div class="settle"><div><span style="color: #217ACD;text-decoration: none;">{{i+1}}.</span> you have pay <span>Rs.{{s.amount}}</span> for <span>{{s.description}}</span> to <span>{{s.payfor}}</span></div><div><button id="ba"  (click)="settle(s,i)" >Settle</button></div></div>
+        </div>
+    </div>
+</div>

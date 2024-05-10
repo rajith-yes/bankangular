@@ -1,0 +1,90 @@
+.parent {
+    background: rgb(174, 227, 247);
+
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    /* display: grid;
+    place-items: center;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child1 {
+    height: 75vh;
+    width: 27vw;
+    /* display: grid; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow: auto;
+    /* justify-items: center; */
+    background:rgb(174, 227, 247);
+    /* opacity: 0.90; */
+    border-bottom: 2px solid #217ACD;
+    border-top: 2px solid #217ACD;
+    border-right: 1px solid #217ACD;
+    border-left: 2px solid #217ACD;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    border-radius: 3vw;
+    /* background-size: cover;
+    background-position: center; */
+    padding: 1vw;
+    /* font-size: 1.5vw; */
+    text-align: center;
+}
+#menu{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+ }
+ #m1{
+ padding: 0.5vw;
+ font-size: 1.5vw;
+ text-decoration: underline;
+ color:#217ACD;
+ }
+ #inp {
+
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid #217ACD;
+    background: transparent;
+    color:white;
+    letter-spacing: 0.2vw;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    
+}
+#inp::placeholder {
+    /* color: #217ACD; */
+    padding: 2%;
+    font-size: 1.5vw;
+    
+}
+
+input:focus {
+    border-color: transparent;
+    outline: transparent;
+    caret-color: white;
+}
+h1{
+    color: #217ACD;
+    font-size: 2.5vw;
+}
+.svg{
+    height: 5vh;
+    width: 5vw;
+    cursor: pointer;
+}
+#fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

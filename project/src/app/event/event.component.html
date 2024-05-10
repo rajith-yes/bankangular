@@ -1,0 +1,21 @@
+<div class="parent">
+    <div id="menu"><a id="m1" routerLink="/myevent">my events</a><a id="m1" routerLink="/home">home</a><a id="m1" routerLink="/login">logout</a></div>
+    <div class="child1">
+        <div class="sty">
+        <div id="dis">
+            <h1 class="he">{{this.data.gname}}</h1>
+        </div>
+        <div class="b">
+            <h4 class="bu2" (click)="tally()">Settle Up</h4>
+            <h4 class="bu2" (click)="addex()">Add Expense</h4>
+            <h4 class="bu2" (click)="total()">Total</h4>
+        </div>
+        <p>event records</p>
+    </div>
+        <div *ngFor="let s of this.data.eventdetails" id="msg">
+            <div *ngIf="name(s.username)" id="events1">{{s.username}}<br>{{s.description}}<br>{{s.amount}}</div>
+            <div *ngIf="!name(s.username)" id="events">{{s.username}}<br>{{s.description}}<br>{{s.amount}}</div>
+        </div>
+
+    </div>
+</div>

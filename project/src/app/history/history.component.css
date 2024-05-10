@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#top {
+    color: white;
+    text-align: center;
+}
+
+
+#bo1 {
+    color: rgb(4, 246, 4);
+    /* text-align: center; */
+}
+
+#bo2 {
+    color: red;
+    /* text-align: center; */
+}
+
+#zero {
+    display: none;
+}
+
+#one {
+    display: block;
+}
+
+.back {
+    text-align: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0%;
+    background-color:#217ACD;
+    color: white;
+    font-weight: bolder;
+}
+.back:hover{
+    background-color: white;
+    color:#217ACD;
+    font-weight: bolder;
+}
+
+
+
+.parent {
+    background: rgb(174, 227, 247);
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child1 {
+    height: 70vh;
+    width: 54vw;
+    /* display: grid; */
+    overflow: auto;
+    /* place-items: center; */
+    /* border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 1px solid white;
+    border-left: 2px solid white; */
+    background: url("/assets/images/shrine-s320230126-10386-5n9mth.gi");
+    background-size: cover;
+    background-position: center;
+    
+    background-color:  rgb(174, 227, 247);
+    color: black;
+}
+
+
+td,th {
+    padding: 0.5vw;
+    border: 1px solid white;
+}
+
+table,
+tr,
+td,th {
+    border-collapse: collapse;
+    font-size: 2vw;
+    
+
+}
+table {
+    width: 52vw;
+    background-color:  rgb(174, 227, 247);
+   
+  
+}
+#menu{
+   position: absolute;
+   top: 0%;
+   right: 0%;
+   display: flex;
+}
+#m1{
+padding: 0.5vw;
+font-size: 1.5vw;
+text-decoration: underline;
+color:#217ACD;
+}
+.thh{
+    position: sticky;
+    top: 0%;
+    border: 1px solid white;
+    background-color:#217ACD;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+

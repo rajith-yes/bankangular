@@ -1,0 +1,24 @@
+<div class="parent">
+    <div class="child1">
+        Welcome to Bank of TECHFELLAH, where your financial goals come first.
+    </div>
+    <div class="child2">
+        <h1 id="head">Signup</h1>
+        <table>
+            <tr>
+                <td><input id="inp" placeholder="username" type="text" [(ngModel)]="newUser.username"></td>
+            </tr>
+            <tr>
+                <td><input id="inp" placeholder="password" type="password" [(ngModel)]="newUser.password"></td>
+            </tr>
+            <tr>
+                <td><input id="inp" placeholder="confirm Password" type="password" [(ngModel)]="password"></td>
+            </tr>
+            <tr>
+                <td><input id="inp2" type="button" value="signup" (click)="register()"></td>
+            </tr>
+        </table>
+        <p class="last">Already have an account? <a id="link" routerLink="/login">Login</a></p>
+    </div>
+
+</div>

@@ -1,0 +1,115 @@
+.parent{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    /* display: grid;
+    place-items: center;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(174, 227, 247);
+}
+.child{
+    height: 75vh;
+    width: 60vw;
+   
+    overflow: auto;
+    /* justify-items: center; */
+    background:rgb(174, 227, 247);
+    /* opacity: 0.90; */
+    border-bottom: 2px solid #217ACD;
+    border-top: 2px solid #217ACD;
+    border-right: 1px solid #217ACD;
+    border-left: 2px solid #217ACD;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    border-radius: 3vw;
+    /* background-size: cover;
+    background-position: center; */
+    padding: 1vw;
+}
+.settle{
+    width: 90%;
+    border: 2px solid #217ACD;
+    font-size: 1.5vw;
+    color: black;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.settle:hover{
+    color: red;
+    
+}
+.svg{
+    height: 5vh;
+    width: 5vw;
+    cursor: pointer;
+}
+.h1{
+    color: #217ACD;
+    font-size: 2.5vw;
+    text-decoration: underline;
+    text-align: center;
+    margin: 1vw;
+    position: sticky;
+    top: 0%;
+}
+#h1{
+    color: #217ACD;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#menu{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+ }
+ #m1{
+ padding: 0.5vw;
+ font-size: 1.5vw;
+ text-decoration: underline;
+ color:#217ACD;
+ }
+ span{
+    text-decoration: underline;
+ }
+ #fl{
+    display:flex;
+    justify-content: center;
+ }
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  #ba{
+    padding: 0.5vw;
+    background-color: #217ACD;
+    color: white;
+    border: transparent;
+    font-size: 1.5vw;
+    border-radius: 1.5vw;
+  }
+  #ba:hover{
+    cursor: pointer;
+    background-color:white ;
+    color:#217ACD ;
+    border: transparent;
+
+  }

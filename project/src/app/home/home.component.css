@@ -1,0 +1,256 @@
+.parent {
+    background: rgb(174, 227, 247);
+   
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    /* display: grid;
+    place-items: center;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1 {
+    height: 75vh;
+    width: 27vw;
+    display: grid;
+    overflow: auto;
+    place-items: center;
+    background:rgb(174, 227, 247);
+    opacity: 0.90;
+    border-bottom: 2px solid #217ACD;
+    border-top: 2px solid #217ACD;
+    border-right: 1px solid #217ACD;
+    border-left: 2px solid #217ACD;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    background-size: cover;
+    background-position: center;
+    padding: 1vw;
+}
+
+.child2 {
+    height: 75vh;
+    width: 27vw;
+    display: grid;
+    overflow: auto;
+    place-items: center;
+    border-bottom: 2px solid #217ACD;
+    border-top: 2px solid #217ACD;
+    border-right: 2px solid #217ACD;
+    border-left: 1px solid #217ACD;
+    background: rgb(174, 227, 247);
+    opacity: 0.90;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    padding: 1vw;
+}
+
+.image1 {
+    height: 27vh;
+    width: 12vw;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.image2 {
+    height: 7vh;
+    width: 3vw;
+    border: 2px solid white;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.name {
+    text-align: center;
+    letter-spacing: 0.2vw;
+    font-size: 3.5vw;
+    font-weight: bolder;
+    color:#217ACD;
+}
+
+.rs {
+    display: flex;
+}
+
+.i2 {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 7vh;
+    width: 13vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    color: #217ACD;
+}
+
+.i3 {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    height: 7vh;
+    width: 3vw;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#head {
+    text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+    letter-spacing: 0.2vw;
+    font-size: 3vw;
+    font-weight: bolder;
+    color:#217ACD;
+}
+#inp {
+
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid #217ACD;
+    background: transparent;
+    color:white;
+    letter-spacing: 0.2vw;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    
+}
+
+#inp::placeholder {
+    color:#217ACD;
+    padding: 2%;
+    font-size: 1.3vw;
+}
+
+input:focus {
+    border-color: transparent;
+    outline: transparent;
+    caret-color: white;
+}
+#inp21 {
+    width: 40%;
+    padding: 1%;
+    letter-spacing: 0.2vw;
+    font-weight: bolder;
+    border: transparent;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #217ACD;
+    color: white;
+    border-radius: 1vw;
+
+}
+
+#inp21:hover {
+    background-color:white;
+    color:#217ACD;
+}
+#inp22 {
+    width: 40%;
+    padding: 1%;
+    letter-spacing: 0.2vw;
+    font-weight: bolder;
+    border: transparent;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #217ACD;
+    color: white;
+    border-radius: 1vw;
+    
+
+}
+
+#inp22:hover {
+    background-color:white;
+    color:#217ACD;
+}
+
+.logout{
+    width: 12vw;
+    height: 5vh;
+    padding: 2%;
+    letter-spacing: 0.2vw;
+    font-weight: bolder;
+    border: transparent;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 1vw;
+    background-color: #217ACD;
+    color: white;
+
+}
+.logout:hover {
+    background-color:white;
+    color:#217ACD;
+}
+.history{
+    width: 19vw;
+    
+    padding: 1%;
+    letter-spacing: 0.15vw;
+    font-weight: bolder;
+    border: transparent;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 1vw;
+    background-color:#217ACD;
+    color: white ;
+}
+.history:hover {
+    background-color:white;
+    color: #217ACD ;
+}
+td {
+    padding: 1vw;
+    
+}
+
+.trans{
+    display: flex;
+    justify-content: space-between;
+
+}
+#menu{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+ }
+ #m1{
+ padding: 0.5vw;
+ font-size: 1.5vw;
+ text-decoration: underline;
+ color:#217ACD;
+ }
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+ 

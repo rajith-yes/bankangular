@@ -1,0 +1,154 @@
+.parent {
+    background-image: url("/assets/images/shrine-s320230126-10386-5n9mth.gif");
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    /* display: grid;
+    place-items: center;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child1 {
+    height: 70vh;
+    width: 27vw;
+    display: grid;
+    overflow: auto;
+    place-items: center;
+    background: transparent;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 1px solid white;
+    border-left: 2px solid white;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    background: url("/assets/images/shrine-s320230126-10386-5n9mth.gi");
+    background-size: cover;
+    background-position: center;
+    padding: 1vw;
+    background-color: aliceblue;
+    opacity: 0.6;
+    font-size: 3.2vw;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+
+}
+
+.child2 {
+    height: 70vh;
+    width: 27vw;
+    display: grid;
+    overflow: auto;
+    place-items: center;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 1px solid white;
+    background: transparent;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    padding: 1vw;
+
+}
+
+#head {
+    text-align: center;
+    text-shadow: 7px 7px 7px #000000;
+    letter-spacing: 0.2vw;
+    font-size: 3.5vw;
+    font-weight: bolder;
+}
+
+td {
+    padding: 1vw;
+}
+
+#inp {
+
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color:white;
+    letter-spacing: 0.2vw;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    
+}
+
+#link {
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bolder;
+
+}
+.last{
+    font-size: 1.5vw;
+    font-weight: bolder;
+
+}
+#link:hover {
+    color: black;
+}
+
+#inp2 {
+    width: 100%;
+    padding: 2%;
+    letter-spacing: 0.2vw;
+    font-weight: bolder;
+    border: transparent;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    cursor:pointer;
+
+}
+
+#inp2:hover {
+    background-color: black;
+    color: white;
+}
+
+#inp3 {
+    padding: 1%;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+#inp::placeholder {
+    color: white;
+    padding: 2%;
+    font-size: 1.5vw;
+    
+}
+
+input:focus {
+    border-color: transparent;
+    outline: transparent;
+    caret-color: white;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

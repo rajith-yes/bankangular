@@ -1,0 +1,23 @@
+<div class="parent">
+   <div id="menu"><div> <a id="m1" routerLink="/home">home</a></div><div><a id="m1" routerLink="/login">logout</a></div></div>
+    <div class="child1">
+        <table id="on">
+            <tr class="thh">
+                <th id="top">Date</th>
+                <th id="top">Description</th>
+                <th id="top"><span style="color: rgb(4, 246, 4)">Credit</span> / <span style="color: red;">Debit</span></th>
+                <th id="top">Balance</th>
+            </tr>
+            <tr *ngFor="let s of this.history">
+                <td id="bot">{{s.date}}</td>
+                <td id="bot">{{s.description}}</td>
+                <td *ngIf="s.type=='credit'" id="bo1">{{s.amount}}</td>
+                <td *ngIf="s.type=='debit'" id="bo2">{{s.amount}}</td>
+                <td id="bot">{{s.bal}}</td>
+            </tr>
+        </table>
+        <div id="zero">
+            <h1>Hi {{this.ser.tempName}} ! You Have No Transaction history</h1>
+        </div>
+    </div>
+</div>

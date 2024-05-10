@@ -1,0 +1,9 @@
+<div class="parent">
+    <div id="menu"><a id="m1" routerLink="/home">home</a><a id="m1" routerLink="/login">logout</a></div>
+    <div class="child1">
+        <div class="he"><h1>My Events</h1></div>
+        <div id="align" *ngFor="let s of this.data.myevents">
+            <div id="events" (click)="event(s)">{{s.leader.eventname}}</div>
+        </div>
+    </div>
+</div>

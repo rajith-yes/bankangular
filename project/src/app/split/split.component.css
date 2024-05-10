@@ -1,0 +1,146 @@
+.parent {
+    background: rgb(174, 227, 247);
+   
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    /* display: grid;
+    place-items: center;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1 {
+    height: 75vh;
+    width: 27vw;
+   
+    overflow: auto;
+    /* justify-items: center; */
+    background:rgb(174, 227, 247);
+    /* opacity: 0.90; */
+    border-bottom: 2px solid #217ACD;
+    border-top: 2px solid #217ACD;
+    border-right: 1px solid #217ACD;
+    border-left: 2px solid #217ACD;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    border-radius: 3vw;
+    /* background-size: cover;
+    background-position: center; */
+    padding: 1vw;
+}
+
+.svg{
+    height: 5vh;
+    width: 5vw;
+    cursor: pointer;
+}
+.h3{
+    font-size: 2.5vw;
+    color: #217ACD;
+}
+
+#bar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#bar1{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    cursor: pointer;
+    color: black
+}
+h2:hover{
+    color: #217ACD;
+}
+.p{
+   position: relative;
+   font-size: 1.5vw;
+   top:30%;
+
+}
+
+.h{
+    font-size: 2.5vw;
+    color: #217ACD;
+    text-decoration: underline;
+}
+#svg{
+    height: 3vh;
+    width: 3vw;
+    cursor: pointer;
+}
+#main{
+display: flex;
+justify-content: space-between;
+}
+#s1{
+display: flex;
+place-content: center;
+align-items: center;
+}
+#s2{
+display:flex;
+place-content: center;
+align-items: center;
+}
+#inp {
+
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid #217ACD;
+    background: transparent;
+    color:white;
+    letter-spacing: 0.2vw;
+    /* font-size: 1.5vw; */
+    font-weight: bolder;
+    
+}
+#inp::placeholder {
+    color: #217ACD;
+    padding: 2%;
+    /* font-size: 1.5vw; */
+    
+}
+
+input:focus {
+    border-color: transparent;
+    outline: transparent;
+    caret-color: white;
+}
+#menu{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;
+ }
+ #m1{
+ padding: 0.5vw;
+ font-size: 1.5vw;
+ text-decoration: underline;
+ color:#217ACD;
+ }
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+ 

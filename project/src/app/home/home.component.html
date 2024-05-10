@@ -1,0 +1,37 @@
+<div class="parent">
+    <div id="menu"><a id="m1" routerLink="/login">logout</a><a id="m1">About Us</a><a id="m1">Contact us</a></div>
+    <div class="child1">
+        <div><img class="image1" src="/assets/images/images.png" alt="">
+            <div class="name">{{this.ser.tempName}}</div>
+        </div>
+        <div class="rs"><img class="image2" src="/assets/images/images (2).png" alt="">
+            <div class="i2">₹ {{this.userDetail.accbal}}</div>
+            <div ><img class="i3" src="/assets/images/images (2).png" alt=""></div>
+        </div>
+        <div><input class="history" type="button" value="Transaction history" (click)="history()"></div>
+    </div>
+    <div class="child2">
+        <h1 id="head">Make Transactions Here</h1>
+        <table>
+            <tr>
+                <td><input id="inp" type="text" placeholder="enter description" [(ngModel)]="accDetail.description">
+                </td>
+            </tr>
+            <tr>
+                <td><input type="number" name="" placeholder="enter amount" id="inp" [(ngModel)]="accDetail.amount">
+                </td>
+            </tr>
+            <tr>
+                <td><div class="trans"><input type="button" id="inp21" value="credit" (click)="credit()"><input type="button" id="inp22" value="debit"
+                        (click)="debit()"></div></td>
+            </tr>
+           
+        </table>
+        <tr>
+            <td><a routerLink="/myevent"><input class="history"  type="button" value="my events"></a></td>
+        </tr>
+        <tr>
+            <td><a routerLink="/createevent"><input class="history"  type="button" value="create event"></a></td>
+        </tr>
+    </div>
+</div>
